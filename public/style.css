@@ -1,0 +1,42 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+#backGroundImage{
+    width:100%;
+    height: 100vh;
+}
+#title{
+    position: absolute;
+    top: 0;
+    height: 75vh;
+    padding: 10rem 4rem 0 4rem ;
+    background: white;
+    text-align: center;
+    
+}
+#titleDescription{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.444);
+}
+#viewWork{
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.464);
+    text-decoration: none;
+    border-radius: 15px;
+}
+#section{
+    display: none;
+    text-align: center;
+}
+#section:target{
+    display: block;
+}
+#section img{
+    
+    width: 100%;
+
+}
