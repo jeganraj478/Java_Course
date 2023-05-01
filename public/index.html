@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animi Form</title>
     <link rel="stylesheet" href="style.css">
-    <title>Cricket</title>
 </head>
+
 <body>
-    <div class="cricket">
-        <h2>Cricket Matches</h2>
-        <div>
-        <a href="" class="btn">International Cricket</a>
-        <button class="btn">T20 Series</button>
-        <input type="button" value="Latest Matches" class="btn">
+    <h1 id="heading"> <img src="https://w0.peakpx.com/wallpaper/453/27/HD-wallpaper-white-batman-logo-in-black-background-batman.jpg" alt=""> ANIMI-FORMS
+    <img src="https://w0.peakpx.com/wallpaper/453/27/HD-wallpaper-white-batman-logo-in-black-background-batman.jpg" alt=""> </h1>
+    <form action="" method="POST">
+        <div id="container-1">
+            <div>
+                <label for="">ANMI-Name</label>
+                <br>
+                <input type="text" id="nameTextBox">
+            </div>
+            <div>
+                <label for="">ANIMI-(ORIGIN-COUNTRY)</label> <br>
+                        <select id="countryTextBox">
+                            <option value=""></option>
+                        </select>
+            </div>
+            <div>
+                <label for="">No.of.Episodes</label>
+                <br>
+                <input type="text" id="noOfEpisodeTextBox">
+            </div>
+            <div>
+                <label for="">YOUR RATING</label>
+                <br>
+                <input type="text" id="yourRatingTextBox">
+            </div>
+            <div>
+                <label for="">AWARDS</label>
+                <br>
+                <input type="text" id="awardsTextBox">
+            </div>
+        </div>
+
+        <div id="container-2">
+            <div>
+                <label for="">DESCRIPTION ABOUT THE ANIMI</label>
+                <br>
+                <input type="text" id="descriptionTextBox">
+            </div>
+            <button id="submitButton">SUBMIT</button>
+        </div>
+    </form>
     </div>
-    <button class="btn2">All Matches</button>
-    </div>
+
 </body>
+
 </html>
