@@ -1,44 +1,30 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
 }
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #17a288;
-    min-height: 80vh;
+body{
+    font-size: 16px;
 }
-
-.cricket{
+#titleName{
     text-align: center;
-    background-color: white;
+    padding: 30px;
+    background-color: rgb(39, 0, 179);
+    color: white;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
+#containerSection{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: nowrap;
+    background-color: rgb(113, 113, 238);
+}
+p,h2{
     padding: 20px;
-
-}
-a{
-    text-decoration: none;
-}
-h2{
-    margin: 20px 0;
-}
-.btn{
-   
-    color:white ;
-    margin: 20px;
-    padding: 20px; 
-    border: none;
-    outline: none;
-    background-color: green;
-}
-
-.btn2{
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(245, 239, 239);
-    border: 1px solid black;
 }
