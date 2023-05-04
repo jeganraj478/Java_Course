@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,40 +7,51 @@
     font-family: 'Poppins', sans-serif;
 
 }
-
-body {
+body{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    background: #17a288;
-    min-height: 80vh;
-}
-
-.cricket{
-    text-align: center;
-    background-color: white;
-    padding: 20px;
+    flex-direction: column;
+    color: white;
+    min-height: 100vh;
+    background-image:url(https://motionarray.imgix.net/preview-128704-ziC6xHGwhm-high_0003.jpg?w=660&q=60&fit=max&auto=format);
 
 }
-a{
-    text-decoration: none;
+
+#div,#div{
+padding: 8px 0 25px 0;
 }
 h2{
-    margin: 20px 0;
-}
-.btn{
-   
-    color:white ;
-    margin: 20px;
-    padding: 20px; 
-    border: none;
-    outline: none;
-    background-color: green;
+    
+    display:inline;
+    float: center;
 }
 
-.btn2{
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(245, 239, 239);
-    border: 1px solid black;
+
+#circle{
+    padding: 100px 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    text-align: center;
+    color:black;
+    background-color: whitesmoke;
 }
+p{
+    font-size: 30px;
+    display: inline;
+    float: center;
+    color: red;
+    font-weight: bolder;
+
+}
+button{
+    background-color: rgb(19, 102, 236);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
