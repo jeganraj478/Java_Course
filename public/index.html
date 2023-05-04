@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Clock </title>
     <link rel="stylesheet" href="style.css">
-    <title>Cricket</title>
 </head>
 <body>
-    <div class="cricket">
-        <h2>Cricket Matches</h2>
-        <div>
-        <a href="" class="btn">International Cricket</a>
-        <button class="btn">T20 Series</button>
-        <input type="button" value="Latest Matches" class="btn">
+
+  <button id="toggleButton">Dark Mode</button>
+
+  <div id="clock-container">
+    <div id="clock">
+      <div id="hour" class="needle hour"></div>
+      <div id="minute" class="needle minute"></div>
+      <div id="second" class="needle second"></div>
+      <div id="center-point"></div>
     </div>
-    <button class="btn2">All Matches</button>
-    </div>
+
+    <div id="time" class="time"></div>
+    <div id="date" class="date"></div>
+  </div>
+
+  <script src="app.js" ></script>
 </body>
 </html>
