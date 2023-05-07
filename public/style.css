@@ -1,44 +1,70 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+}
+body{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction:column;
+  margin: 20px ;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #17a288;
-    min-height: 80vh;
-}
-
-.cricket{
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-
-}
-a{
-    text-decoration: none;
+h1{
+    padding: 15px;
 }
 h2{
-    margin: 20px 0;
+  padding:15px 0 15px 150px;
 }
-.btn{
-   
-    color:white ;
-    margin: 20px;
-    padding: 20px; 
+button{
+    font-size: 30px;
+    margin: 40px;
     border: none;
-    outline: none;
-    background-color: green;
+    padding: 30px 20px;
+    background-color: rgb(247, 247, 5);
+    color: rgb(130, 130, 6);
 }
 
-.btn2{
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(245, 239, 239);
-    border: 1px solid black;
-}
+#smiley {
+  margin:20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+  }
+  
+ 
+  
+  #eye1 {  
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(147, 147, 0);
+    position: absolute;
+    top: 70px;
+    left: 45px;
+  }
+  
+  #eye2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(147, 147, 0);
+    position: absolute;
+    top: 70px;
+    right: 45px;
+  }
+  
+  #mouth {
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 100px 100px;
+    background-color: rgb(157, 157, 6);
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
