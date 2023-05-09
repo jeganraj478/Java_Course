@@ -5,17 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cricket</title>
+    <title>Numberates Game</title>
+
 </head>
 <body>
-    <div class="cricket">
-        <h2>Cricket Matches</h2>
-        <div>
-        <a href="" class="btn">International Cricket</a>
-        <button class="btn">T20 Series</button>
-        <input type="button" value="Latest Matches" class="btn">
+    <div id="float-right">
+        <label for="" id="attemptLabel">NO.OF.ATTEMPTS</label>
+        <p id="attemptCount">10</p>
     </div>
-    <button class="btn2">All Matches</button>
+    <div id="text-center">
+        <h1 id="title">NUMBERATES</h1>
+
+        <div id="input-box">
+            <h1 id="heading">Guess the number between 1 - 100</h1>
+            <label for="" id="textLabel">Enter the number</label><br>
+            <input type="text" id="textBox"><br>
+            <button id="checkButton" onclick="GuessTheNum()">Check</button>
+
+        </div>
+        
+        <div id="winning-box">
+            <p id="emoji">	&#129395;</p>
+            <h1 >CONGRATS YOU HAVE WON THE GAME</h1>
+        </div>
+        <div id="losing-box">
+            <p id="emoji">&#128542;</p>
+            <h1 >SORRY BETTER LUCK NEXT TIME</h1>
+        </div>
+        <div id="guess">
+
+        </div>
     </div>
+    <img src="https://i.imgur.com/pi7woUx.jpg" alt="" id="bg-img" >
+    
+
+
+    <script src="script.js"></script>
 </body>
 </html>

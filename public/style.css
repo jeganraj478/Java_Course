@@ -1,44 +1,118 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+
+*{
+    padding:0;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #17a288;
-    min-height: 80vh;
-}
-
-.cricket{
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-
-}
-a{
-    text-decoration: none;
-}
-h2{
-    margin: 20px 0;
-}
-.btn{
+body
+{ 
    
-    color:white ;
-    margin: 20px;
-    padding: 20px; 
-    border: none;
-    outline: none;
-    background-color: green;
+background: linear-gradient(90deg, rgba(252,132,114,1) 0%, rgba(127,127,227,1) 100%);
 }
 
-.btn2{
+
+#float-right{
+ margin: 20px 30px ;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#attemptLabel{
+    color: #fff;
+    font-size: 25px;
+
+}
+#attemptCount{
+    background-color: bisque;
+    color: red;
+    padding: 22px 30px;
+    border-radius: 50%;
+}
+
+#text-center{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 25px;
+}
+
+#title{
+    color: #fff;
+    padding: 20px 0 0 0;
+    margin-bottom: 30px;
+    border-bottom:1px solid #fff;
+}
+#input-box{
+    font-size: 22px;
+    width:600px;
+    padding: 20px 40px;
+    background: #fff;
+    border-radius:10px;
+    text-align: center;
+}
+#heading{
+    margin: 20px 10px 30px 10px;
+}
+
+#textBox,#textLabel{
+margin: 20px;
+}
+#textBox{
+    border-radius: 5px;
+    border: none;
+    background:linear-gradient(90deg, rgba(252,132,114,1) 0%, rgba(127,127,227,1) 100%);
+    width: 60%;
+}
+
+
+#textBox:hover{
+outline:none;
+}
+
+#checkButton{
+    color: #fff;
+    margin: 20px;
+    padding: 10px 50px;
+    border: none;
+    background: rgb(215, 124, 162);
+    border-radius: 7px;
+}
+
+#winning-box,#losing-box{
+    display: none;
+    font-size: 22px;
+    width:600px;
+    padding: 20px 40px;
+    background: #fff;
+    border-radius:10px;
+    text-align: center;
+}
+#winning-box h1,#losing-box h1{
+    margin: 20px;
+}
+#guess{
+    margin: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+#emoji{
     margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(245, 239, 239);
-    border: 1px solid black;
+    font-size: 50px;
+}
+
+
+#bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99vh;
+    opacity: 0.1;
+    z-index: -100;
 }
