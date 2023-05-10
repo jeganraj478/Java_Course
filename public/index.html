@@ -1,21 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cricket</title>
+    <title>Shopee</title>
 </head>
+
 <body>
-    <div class="cricket">
-        <h2>Cricket Matches</h2>
-        <div>
-        <a href="" class="btn">International Cricket</a>
-        <button class="btn">T20 Series</button>
-        <input type="button" value="Latest Matches" class="btn">
+
+    <div id="dashBoard">
+        <img src="https://media.istockphoto.com/id/995125114/vector/running-man-pushing-shopping-cart-icon-vector-illustration.jpg?s=170667a&w=0&k=20&c=5KnhwnfWWYJluGHvHgAVgMD7a-ukApnTrF-n0bS0EBk="
+            alt="" id="icon">
+
+        <p id="cartItems" style="cursor: pointer;">Cart Items <span>[0]</span></p>
+
     </div>
-    <button class="btn2">All Matches</button>
+    <div id="Shopping-cart">
+        <h5>Shopping Cart</h5>
+        <ul id="cart">
+        </ul>
+        <p>Total: $<span id="total">0</span></p>
+
     </div>
+    <div id="container">
+        <img src="https://thumbs.dreamstime.com/b/3d-text-shop-21185264.jpg" alt="" id="titleImage">
+        <h1 id="productName1">Discover New Bags</h1>
+        <div id="shopping-section">
+
+            <div id="Bag-pr-1">
+
+                <img src="https://lh3.googleusercontent.com/X1l7HlzucCrYfFuksfoMQ9L5l6hg78sQzenrQDTY-KNsXbVMAqiRKImTVty5ScyNFrP10eAbwEdGwn-mejZvSImSLtONXg_d_BOfws68VvBiW5Qdn-mB4Uc0iV7UWPudl494k8k0ajbaNS-jFc0Ofuk"
+                    alt="" id="productImage1">
+                <p id="productName1" class="name">Tom Hilfiger</p>
+                <p id="productPrice1"class="price">$10.78</p>
+                <input type="submit" value="ADD to CART" id="productAdd1" class="add-to-cart" name="Bag-pr-1">
+            </div>
+            <div id="Bag-pr-2">
+
+                <img src="https://lh6.googleusercontent.com/q4qcbYTLEQEPnIAWss06sVqX9iO0RkJUfSh-a4PqvWmobPuRay8637gVRPYrO-8ID1Kxja3a1Va1e9cJz_-zVUnlQXjaxNjJlLIS_a9dmS2oa5wy6AKrChtqnMAGY51wSuGZKevL4rtSmMX50_QF7ms"
+                    alt="" id="productImage2">
+                <p id="productName2" class="name">Tommy Hill</p>
+                <p id="productPrice2" class="price">$9.6</p>
+                <input type="submit" value="ADD to CART" id="productAdd2" class="add-to-cart" name="Bag-pr-2">
+            </div>
+            <div id="Bag-pr-3">
+
+                <img src="https://lh6.googleusercontent.com/8bMg7ALBaxNEbt7JAlTLV3-mDAXN549M42zB5TmrB-vdzmkClPpphMmTsBhIRuucL5K9HARnncBpsmD4VtA6Lj-z8GSDiwW1CwPgUJlgyXb3MT-5TEZjXFv_2GlUVyA8RSU8Hhzz9QQOTS_KwRaeVYk"
+                    alt="" id="">
+                <p class="name">Tommy wear</p>
+                <p id="" class="price">$5.9</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Bag-pr-3">
+            </div>
+            <div id="Bag-pr-4">
+
+                <img src="https://lh5.googleusercontent.com/8XrT4ib824vU4tXauLy4Y00VXtMpuxPi6rqzHU7Fj_TKH28yxTl6LtZ-HSQUcpudkvoUqJP_Psj_9K4YuwCrQMwaGe2OoedqH2oLURaUJmRixds0F9fPTs4sWkUBhrW-8hENaFlHj_YKZVkrJ2sIvXw"
+                    alt="" id="">
+                <p class="name">leather Hilfiger</p>
+                <p id="" class="price">$8.6</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Bag-pr-3">
+            </div>
+            <div id="Bag-pr-5">
+                <img src="https://lh6.googleusercontent.com/AwQPcVaBdFKKNfdagokB-ERT1TVBnb_qZQBIQOieCL5uja6waZm6Z0UNi9G6h-LaJsELIYBCS0LobY_jLrUBCPJBZEoDU78bG0jCAW7F5bLrgpZeEPey8zGpdCi4FEtXifKLaXSMHztieYcvGrbCTig"
+                    alt="">
+                <p class="name">Tommy Hilfiger</p>
+                <p id="" class="price">$8.6</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Bag-pr-5">
+            </div>
+        </div>
+
+        <h1 id="productName2">Discover New Watches</h1>
+
+        <div id="shopping-section">
+
+            <div id="Watch-pr-1">
+
+                <img src="https://www.jamesedition.com/stories/wp-content/uploads/2021/05/4_vacheron_fin.jpeg" alt=""
+                    id="productImage3">
+                <p id="productName" class="name">Vacheron Constantin</p>
+                <p id="productPrice3 "class="price">$4586</p>
+                <input type="submit" value="ADD to CART" id="productAdd" class="add-to-cart" name="Watch-pr-1">
+            </div>
+            <div id="Watch-pr-2">
+
+                <img src="https://www.jamesedition.com/stories/wp-content/uploads/2021/05/24_omega.jpeg" alt=""
+                    id="productImage">
+                <p id="productName" class="name">Omega</p>
+                <p id="productPrice "class="price">$1676</p>
+                <input type="submit" value="ADD to CART" id="productAdd" class="add-to-cart" name="Watch-pr-2">
+            </div>
+            <div id="Watch-pr-3">
+
+                <img src="https://www.jamesedition.com/stories/wp-content/uploads/2021/05/7_audemars.jpeg" alt="" id="">
+                <p class="name">Audermars</p>
+                <p id="" class="price">$1784</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Watch-pr-3">
+            </div>
+            <div id="Watch-pr-4">
+
+                <img src="https://www.jamesedition.com/stories/wp-content/uploads/2021/05/10_lange.jpeg" alt="" id="">
+                <p  class="name">Lange</p>
+                <p id=""class="price">$2346</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Watch-pr-4">
+            </div>
+        </div>
+        <h1 id="productName3">Phones for You</h1>
+        <div id="shopping-section">
+
+            <div id="Mobile-pr-1">
+
+                <img src="https://static01.nyt.com/images/2020/04/16/business/16apple-new/15apple-new-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+                    alt="" id="productImage3">
+                <p id="productName" class="name">Apple</p>
+                <p id="productPrice4 "class="price">$546.8</p>
+                <input type="submit" value="ADD to CART" id="productAdd" class="add-to-cart" name="Mobile-pr-1">
+            </div>
+            <div id="Mobile-pr-2">
+
+                <img src="https://www.bgr.in/wp-content/uploads/2020/06/vivo-y50.jpg" alt="" id="productImage">
+                <p id="productName" class="name">Vivo</p>
+                <p id="productPrice "class="price">$814.4</p>
+                <input type="submit" value="ADD to CART" id="productAdd" class="add-to-cart" name="Mobile-pr-2">
+            </div>
+            <div id="Mobile-pr-3">
+
+                <img src="https://dealntechcdn.b-cdn.net/wp-content/uploads/2019/06/Lenovo-K10-Note.jpg" alt="" id="">
+                <p class="name">Lenevo</p>
+                <p id="" class="price">$999</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Mobile-pr-3">
+            </div>
+            <div id="Mobile-pr-4">
+
+                <img src="https://www.globalbrandsmagazine.com/wp-content/uploads/2023/01/XIAOMI.jpg" alt="" id="">
+                <p class="name">Redmi</p>
+                <p id="" class="price">$899</p>
+                <input type="submit" value="ADD to CART" class="add-to-cart" name="Mobile-pr-4">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <img src="https://media.istockphoto.com/id/1025394908/vector/a-simple-icon-of-a-man-with-cart.jpg?s=612x612&w=0&k=20&c=5MEkT2SE07CWigWnJ-sR32AQLDqN7fyPqYLp79ILJPo="
+            alt="" id="productFooterIcon">
+        <p id="productFooterAddress"><span>Shop World</span> <br>
+            Apple Street,1st phase <br>
+            Chennai. <br>Contact at ShopWorld@gmail.com</p>
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
+
+
 </html>
