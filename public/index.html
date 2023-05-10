@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cricket</title>
+    <title>Weather Prognosis</title>
+
 </head>
+
 <body>
-    <div class="cricket">
-        <h2>Cricket Matches</h2>
-        <div>
-        <a href="" class="btn">International Cricket</a>
-        <button class="btn">T20 Series</button>
-        <input type="button" value="Latest Matches" class="btn">
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20201012/pngtree-white-cloud-on-blue-sky-weather-background-image_410050.jpg" alt="" id="bgImage">
+    <div id="container">
+        <h1 id="heading">WEATHER REPORT</h1>
+        <div id="grid1">
+            <input type="text" id="textBox">
+            <button id="submitButton">SUBMIT</button>
+        </div>
+        <div id="grid2">
+            <img src="" alt="" id="icon">
+            <div id="city"></div>
+            <div id="temperature" style="color:#fff;"></div>
+        </div>
     </div>
-    <button class="btn2">All Matches</button>
-    </div>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>

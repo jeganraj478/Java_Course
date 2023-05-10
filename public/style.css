@@ -1,44 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
+
+#bgImage {
+    width: 100%;
+    height: 98vh;
+    opacity: 0.7;
+}
+
+#container {
+
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    text-align: center;
+    margin: 30px;
+}
+
+#grid1 {
+    margin: 50px 0;
+    background: rgb(190, 217, 236);
+    background: linear-gradient(180deg, rgba(37, 195, 214, 0.7) 0%, rgba(50, 114, 248, 0.8) 100%);
+    padding: 4rem 6rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 37px 21px rgba(0, 0, 0, 0.2);
+}
+
+#textBox {
+    margin: 5px;
+    padding: 5px 20px;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(50, 166, 248, 0.5) 0%, rgba(151, 226, 239, 1) 100%);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 37px 21px rgba(0, 0, 0, 0.2);
+}
+
+#submitButton {
+    margin: 5px;
+    padding: 5px 10px;
+    color: rgb(12, 12, 161);
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#grid2 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #17a288;
-    min-height: 80vh;
-}
-
-.cricket{
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-
-}
-a{
-    text-decoration: none;
-}
-h2{
-    margin: 20px 0;
-}
-.btn{
-   
-    color:white ;
-    margin: 20px;
-    padding: 20px; 
-    border: none;
-    outline: none;
-    background-color: green;
-}
-
-.btn2{
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(245, 239, 239);
-    border: 1px solid black;
+    justify-content: space-around;
+    margin: 60px 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(37, 195, 214, 0.7) 0%, rgba(50, 114, 248, 0.6) 100%);
+    box-shadow: 0px 0px 37px 21px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-size: 30px;
 }
