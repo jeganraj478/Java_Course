@@ -1,0 +1,38 @@
+icon1=document.querySelector("#icon-1");
+icon2=document.querySelector("#icon-2");
+icon3=document.querySelector("#icon-3");
+task1=document.querySelector("#task-1");
+task2=document.querySelector("#task-2");
+task3=document.querySelector("#task-3");
+menu=document.querySelector("#filter");
+option=document.querySelector("#clicked-icon")
+
+ menu.addEventListener('click',()=>{
+    menu.classList.toggle("change");
+    option.classList.toggle("click-change");
+    menuFilter();
+
+  });
+menuFilter=()=>{
+    if(document.querySelector(".click-change")){
+        option.style.display="block";
+    }
+    else{
+        option.style.display="none";
+    }
+}
+icon1.addEventListener('click',()=>{
+    task1.style.display="none";
+    task2.style.display="block";
+    task3.style.display="none";
+})
+icon2.addEventListener('click',()=>{
+    task1.style.display="none";
+    task2.style.display="none";
+    task3.style.display="block";
+})
+icon3.addEventListener('click',()=>{
+    task1.style.display="block";
+    task2.style.display="none";
+    task3.style.display="none";
+})
